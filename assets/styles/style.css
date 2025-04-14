@@ -53,3 +53,65 @@
     transform: scale(1.02);
     cursor: pointer;
 }   
+
+.cabecalho {
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: top 0.4s ease;
+
+}
+
+.cabecalho--escondido {
+    top: -100px; 
+}
+
+.lista a {
+    color: #000;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color 0.2s ease;
+}
+
+.lista a:hover {
+    color: #0057B8;
+}
+
+main {
+    padding-top: 100px;
+}
+
+body {
+    background-color: #001F3D;
+    overflow-x: hidden;
+}
+
+.segunda-secao {
+    width: 100%;
+    height: 500px;  /* Altura fixa de 500px */
+    overflow: hidden;
+    position: relative;  /* Para posicionar a imagem corretamente */
+    margin-top: -2px; /* Corrige o espaço entre a hero section e a nova imagem */
+}
+
+.segunda-secao__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* Garante que a imagem cubra completamente a área */
+    object-position: center;  /* Centraliza a imagem */
+    position: absolute;  /* Posiciona a imagem de maneira absoluta dentro da section */
+    top: 0;
+    left: 0;
+}
