@@ -26,6 +26,8 @@
 }
 
 .container__link {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
     position: absolute;
     bottom: 175px;
     left: 115px;
