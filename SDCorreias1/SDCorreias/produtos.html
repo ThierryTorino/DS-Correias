@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - DSCorreias</title>
+    <link rel="stylesheet" href="./assets/styles/reset.css">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="index.html">
+            <img src="./assets/images/logo.svg" alt="Logo DSCorreias">
+        </a>
+        <nav>
+            <ul class="lista">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="quem-somos.html">QUEM SOMOS</a></li>
+                <li><a href="galeria.html">PRODUTOS</a></li>
+                <li>
+                    <a href="https://wa.me/5516991342425?text=Olá%2C%20gostaria%20de%20mais%20informações!" 
+                       target="_blank" 
+                       rel="noopener noreferrer">
+                       CONTATO
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="galeria__intro">
+            <h1 class="galeria__titulo">Produtos</h1>
+            <p class="galeria__descricao">
+                Confira um pouco mais dos nossos produtos e serviços de alta qualidade.
+            </p>
+        </section>
+    
+        <section class="galeria__imagens">
+            <div class="galeria__grid">
+                <div class="galeria__item">
+                    <img src="./assets/images/correia1.png" alt="Correia PVC verde 2 lonas">
+                    <p class="galeria__caption">Correia PVC verde 2 lonas</p>
+                </div>
+                <div class="galeria__item">
+                    <img src="./assets/images/correia2.png" alt="Correia PVC rasqueada">
+                    <p class="galeria__caption">Correia PVC rasqueada</p>
+                </div>
+                <div class="galeria__item">
+                    <img src="./assets/images/correia3.png" alt="Correia PVC Azul">
+                    <p class="galeria__caption">Correia PVC Azul</p>
+                </div>
+                <div class="galeria__item">
+                    <img src="./assets/images/correia5.png" alt="Correia PVC preta">
+                    <p class="galeria__caption">Correia PVC preta</p>
+                </div>
+                <div class="galeria__item">
+                    <img src="./assets/images/correia6.png" alt="Correia PVC verde 3 lonas">
+                    <p class="galeria__caption">Correia PVC verde 3 lonas</p>
+                </div>
+                <div class="galeria__item">
+                    <img src="./assets/images/correia7.png" alt="Correia PVC preta 2mm com Impressão Negativa">
+                    <p class="galeria__caption">Correia PVC preta 2mm com Impressão Negativa</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal para Produtos -->
+<div class="modal-produtos-overlay" id="modalProdutosOverlay">
+    <div class="modal-produtos-container">
+        <button class="modal-produtos-close" id="modalProdutosClose">&times;</button>
+        <div class="modal-produtos-content">
+            <div class="modal-produtos-image-container">
+                <img class="modal-produtos-image" id="modalProdutosImage" src="" alt="Produto em detalhe">
+            </div>
+            <div class="modal-produtos-info">
+                <h3 class="modal-produtos-title" id="modalProdutosTitle">Título do Produto</h3>
+                <p class="modal-produtos-description" id="modalProdutosDescription">Descrição do produto.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <footer class="rodape">
+        <div class="rodape__container">
+            <!-- Logo da DSCorreias -->
+            <div class="rodape__logo">
+                <img src="./assets/images/logo2.png" alt="Logo DSCorreias">
+            </div>
+
+            <!-- Links -->
+            <div class="rodape__links">
+                <p class="rodape__titulo">Links</p>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="quem-somos.html">Quem Somos</a></li>
+                    <li><a href="produtos.html">produtos</a></li>
+                    <li><a href="https://wa.me/5516991342425?text=Olá%2C%20gostaria%20de%20mais%20informações!" target="_blank" rel="noopener noreferrer">Contato</a></li>
+                </ul>
+                <p class="rodape__direitos">© 2025 DSCorreias - Todos os direitos reservados.</p>
+            </div>
+
+            <!-- Contato -->
+            <div class="rodape__contato">
+                <p class="rodape__titulo">Contato</p>
+                <ul>
+                    <li>
+                        <img src="./assets/images/whatsapp.png" alt="Telefone">
+                        <a href="https://wa.me/5516992461335" target="_blank" rel="noopener noreferrer">
+                            <span>(16) 99246-1335</span>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="./assets/images/location.png" alt="Localização">
+                        <span>Ribeirão Preto - SP</span>
+                    </li>
+                    <li>
+                        <img src="./assets/images/email.png" alt="Email">
+                        <span>Contato@dscorreias.com.br</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="./produtos.js"></script>
+</body>
+</html>
