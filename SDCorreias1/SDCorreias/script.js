@@ -181,7 +181,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 specs: [
                     "Tipo: PVC preta 2mm com Impressão Negativa",
                     "Material: Policloreto de vinila (PVC)",
-                    "Sobre: Superfície com aderência diferenciada e baixa espessura."
+                    "Sobre: A correia de PVC com talisca é um tipo de correia transportadora equipada com relevos transversais (talisca) fixados na sua superfície, com a função principal de auxiliar no transporte de materiais em planos inclinados ou verticais. As taliscas atuam como barreiras físicas que impedem o deslizamento da carga durante a movimentação, garantindo maior controle e segurança no processo."
                 ]
             }
   ];
