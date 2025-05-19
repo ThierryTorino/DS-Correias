@@ -176,12 +176,12 @@ document.addEventListener('DOMContentLoaded', function() {
         ]
     },
     {
-                title: "Correia PVC preta 2mm com Impressão Negativa",
+                title: "Correia de PVC Pata de Andorinha",
                 image: './assets/images/talisca.jpg',
                 specs: [
-                    "Tipo: PVC preta 2mm com Impressão Negativa",
+                    "Tipo: PVC Pata de Andorinha",
                     "Material: Policloreto de vinila (PVC)",
-                    "Sobre: A correia de PVC com talisca é um tipo de correia transportadora equipada com relevos transversais (talisca) fixados na sua superfície, com a função principal de auxiliar no transporte de materiais em planos inclinados ou verticais. As taliscas atuam como barreiras físicas que impedem o deslizamento da carga durante a movimentação, garantindo maior controle e segurança no processo."
+                    "Sobre: A correia de PVC com relevo do tipo pata de andorinha é um modelo desenvolvido para oferecer maior aderência e tração durante o transporte de materiais, especialmente em aplicações com inclinação. Seu principal diferencial está na superfície superior, que possui um padrão em formato de “V” invertido, semelhante à pegada de uma andorinha — por isso o nome."
                 ]
             }
   ];
