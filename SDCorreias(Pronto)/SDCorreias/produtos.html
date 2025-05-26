@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - DSCorreias</title>
+    <link rel="stylesheet" href="./assets/styles/reset.css">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="index.html">
+            <img src="./assets/images/logo.svg" alt="Logo DSCorreias">
+        </a>
+        <nav>
+            <ul class="lista">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="quem-somos.html">QUEM SOMOS</a></li>
+                <li><a href="produtos.html">PRODUTOS</a></li>
+                <li>
+                    <a href="https://wa.me/5516991342425?text=Olá%2C%20gostaria%20de%20mais%20informações!" 
+                       target="_blank" 
+                       rel="noopener noreferrer">
+                       CONTATO
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="galeria__intro">
+            <h1 class="galeria__titulo">Produtos</h1>
+            <p class="galeria__descricao">
+                Confira um pouco mais dos nossos produtos e serviços de alta qualidade.
+            </p>
+        </section>
+    
+        <section class="galeria__imagens">
+            <div class="galeria__grid">
+                <div class="galeria__item">
+                    <img src="./assets/images/PVCAzul.jpg" alt="Correia PVC Azul">
+                    <p class="galeria__caption">Correia PVC Azul</p>
+                </div>
+                <div class="galeria__item">
+                    <img src="./assets/images/PVCBranca.jpg" alt="Correia PVC Branca">
+                    <p class="galeria__caption">Correia PVC Branca</p>
+                </div>
+                <div class="galeria__item">
+                    <img src="./assets/images/PVCVerde.jpg" alt="Correia PVC Verde">
+                    <p class="galeria__caption">Correia PVC Verde</p>
+                </div>
+                <div class="galeria__item">
+                    <img src="./assets/images/coreiatt.jpg" alt="Correia tecido-tecido (TT)">
+                    <p class="galeria__caption">Correia tecido-tecido (TT)</p>
+                </div>
+                <div class="galeria__item">
+                    <img src="./assets/images/correiaCorrugada.jpg" alt="Correia Corrugada">
+                    <p class="galeria__caption">Correia PVC Corrugada</p>
+                </div>
+                <div class="galeria__item">
+                    <img src="./assets/images/PUNegativa.jpg" alt="Correia PU com impressão negativa">
+                    <p class="galeria__caption">Correia PU com impressão Negativa</p>
+                </div>
+                <div class="galeria__item">
+                    <img src="./assets/images/talisca.jpg" alt="Correia com talisca">
+                    <p class="galeria__caption">Correia pata de andorinha</p>
+            </div>
+            <div class="galeria__item">
+                    <img src="./assets/images/correiaFosca.jpg" alt="Correia PVC fosca">
+                    <p class="galeria__caption">Correia PVC fosca</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal de Detalhes -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-container">
+            <div class="modal-image-container">
+                <img class="modal-image" id="modalImage" src="" alt="Correia em detalhe">
+            </div>
+            <div class="modal-content">
+                <button class="modal-close" id="modalClose">&times;</button>
+                <h3 class="modal-title" id="modalTitle">Nome da Correia</h3>
+                <div class="modal-specs" id="modalSpecs">
+                    <!-- As especificações serão preenchidas via JavaScript -->
+                </div>
+                <a href="https://wa.me/5516991342425?text=Olá%2C%20gostaria%20de%20mais%20informações%20sobre%20esta%20correia!" 
+                   target="_blank" 
+                   rel="noopener noreferrer" 
+                   class="modal-button">
+                    Solicitar Orçamento
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="rodape">
+        <div class="rodape__container">
+            <!-- Logo da DSCorreias -->
+            <div class="rodape__logo">
+                <img src="./assets/images/logo2.png" alt="Logo DSCorreias">
+            </div>
+
+            <!-- Links -->
+            <div class="rodape__links">
+                <p class="rodape__titulo">Links</p>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="quem-somos.html">Quem Somos</a></li>
+                    <li><a href="produtos.html">produtos</a></li>
+                    <li><a href="https://wa.me/5516991342425?text=Olá%2C%20gostaria%20de%20mais%20informações!" target="_blank" rel="noopener noreferrer">Contato</a></li>
+                </ul>
+                <p class="rodape__direitos">© 2025 DSCorreias - Todos os direitos reservados.</p>
+            </div>
+
+            <!-- Contato -->
+            <div class="rodape__contato">
+                <p class="rodape__titulo">Contato</p>
+                <ul>
+                    <li>
+                        <img src="./assets/images/whatsapp.png" alt="Telefone">
+                        <a href="https://wa.me/5516992461335" target="_blank" rel="noopener noreferrer">
+                            <span>(16) 99246-1335</span>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="./assets/images/location.png" alt="Localização">
+                        <span>Ribeirão Preto - SP</span>
+                    </li>
+                    <li>
+                        <img src="./assets/images/email.png" alt="Email">
+                        <span>Contato@dscorreias.com.br</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Dados das correias (ajuste conforme necessário)
+        const correiasData = [
+            {
+          title: "Correia PVC Azul",
+          image: './assets/images/PVCAzul.jpg',
+          specs: [
+              "Tipo: PVC azul",
+              "Material: Policloreto de vinila (PVC)",
+              "Sobre: A correia de PVC azul é um tipo de correia transportadora revestida com policloreto de vinila (PVC) na cor azul, projetada para atender principalmente setores que exigem controle sanitário rigoroso e facilidade de higienização. A cor azul é amplamente utilizada na indústria alimentícia e farmacêutica por ser facilmente detectável visualmente, já que não é comum em alimentos naturais, facilitando a identificação de contaminações.",
+          ]
+      },
+      {
+          title: "Correia PVC Branca",
+          image: './assets/images/PVCBranca.jpg',
+          specs: [
+              "Tipo: PVC Branca",
+              "Material: Policloreto de vinila (PVC)",
+              "Sobre: A correia de PVC branca é um modelo amplamente utilizado em setores que exigem elevados padrões de higiene e segurança, como indústrias alimentícias, farmacêuticas e cosméticas. Sua principal característica é o revestimento na cor branca, que facilita a visualização de sujeiras, contaminantes e danos superficiais, contribuindo para o controle de qualidade e para práticas de segurança sanitária.",
+          ]
+      },
+      {
+          title: "Correia PVC Verde",
+          image: './assets/images/PVCVerde.jpg',
+          specs: [
+              "Tipo: PVC verde",
+              "Material: Policloreto de vinila (PVC)",
+              "Sobre: A correia de PVC verde é um dos modelos mais utilizados em sistemas de transporte industrial, devido à sua versatilidade, resistência e custo-benefício. O revestimento externo em PVC (policloreto de vinila) oferece uma superfície resistente à abrasão, fácil de limpar e com boa tolerância a agentes químicos leves, óleos e umidade.",
+
+          ]
+      },
+      {
+          title: "Correia tecido tecido (TT)",
+          image: './assets/images/coreiatt.jpg',
+          specs: [  
+              "Tipo: tecido tecido (TT)",
+              "Material: Tecido",
+              "Sobre: A correia tecido-tecido (TT) é um modelo de correia transportadora caracterizado pela presença de camadas de tecido em ambas as faces, sem a aplicação de revestimento em PVC ou borracha. Sua estrutura é formada exclusivamente por lonas de tecido sintético, geralmente de poliéster ou poliamida, que garantem flexibilidade, leveza e resistência mecânica.",
+          ]
+      },
+      {
+        title: "Correia Corrugada",
+        image: './assets/images/correiaCorrugada.jpg',
+        specs: [
+            "Tipo: PVC Corrugada",
+            "Material: Policloreto de vinila (PVC)",
+            "Sobre: A correia corrugada é um tipo de correia transportadora que possui uma superfície com relevo ondulado ou em formato de ondas (corrugado). Esse design proporciona maior aderência ao material transportado, reduzindo significativamente o risco de deslizamento, especialmente em aplicações inclinadas ou com produtos soltos.",
+
+        ]
+    },
+    {
+        title: "Correia PU com impressao negativa",
+        image: './assets/images/PUNegativa.jpg',
+        specs: [
+            "Tipo: PU com impressao negativa",
+            "Material: Poliuretano (PU)",
+            "Sobre: A correia de PU com impressão negativa é um tipo de correia transportadora que se destaca pelo seu revestimento em poliuretano (PU) e pela presença de um relevo rebaixado na superfície, conhecido como impressão negativa. Esse tipo de acabamento cria padrões afundados que oferecem melhor tração e escoamento de líquidos ou partículas, reduzindo o risco de deslizamento dos produtos transportados.",
+        ]
+    },
+    {
+                title: "Correia de PVC Pata de Andorinha",
+                image: './assets/images/talisca.jpg',
+                specs: [
+                    "Tipo: PVC Pata de Andorinha",
+                    "Material: Policloreto de vinila (PVC)",
+                    "Sobre: A correia de PVC com relevo do tipo pata de andorinha é um modelo desenvolvido para oferecer maior aderência e tração durante o transporte de materiais, especialmente em aplicações com inclinação. Seu principal diferencial está na superfície superior, que possui um padrão em formato de “V” invertido, semelhante à pegada de uma andorinha — por isso o nome."
+                ]
+            },
+    {
+                title: "Correia de PVC preta fosca",
+                image: './assets/images/correiaFosca.jpg',
+                specs: [
+                    "Tipo: PVC preta fosca",
+                    "Material: Policloreto de vinila (PVC)",
+                    "Sobre: A correia de PVC preta fosca é um modelo amplamente utilizado em sistemas de transporte industrial e logístico que demandam uma superfície com baixo nível de reflexo, boa resistência mecânica e facilidade de manutenção. O acabamento fosco reduz o brilho da superfície, evitando reflexos indesejados em ambientes com iluminação intensa, o que melhora as condições de segurança visual e ergonomia para operadores."
+                ]
+            },
+        ];
+    
+        // Elementos do modal
+        const modalOverlay = document.getElementById('modalOverlay');
+        const modalImage = document.getElementById('modalImage');
+        const modalTitle = document.getElementById('modalTitle');
+        const modalSpecs = document.getElementById('modalSpecs');
+        const modalClose = document.getElementById('modalClose');
+    
+        // Função para abrir o modal
+        function openModal(index) {
+            const correia = correiasData[index];
+            modalImage.src = correia.image;
+            modalTitle.textContent = correia.title;
+            modalSpecs.innerHTML = '';
+            correia.specs.forEach(spec => {
+                const p = document.createElement('p');
+                p.innerHTML = `<strong>${spec.split(':')[0]}:</strong> ${spec.split(':').slice(1).join(':')}`;
+                modalSpecs.appendChild(p);
+            });
+            modalOverlay.style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+            void modalOverlay.offsetWidth;
+            modalOverlay.classList.add('active');
+        }
+    
+        function closeModal() {
+            modalOverlay.classList.remove('active');
+            setTimeout(() => {
+                if (!modalOverlay.classList.contains('active')) {
+                    modalOverlay.style.display = 'none';
+                    document.body.style.overflow = 'auto';
+                }
+            }, 200);
+        }
+    
+        // Adiciona eventos de clique nas imagens da galeria
+        const galeriaImgs = document.querySelectorAll('.galeria__grid .galeria__item img');
+        galeriaImgs.forEach((img, idx) => {
+            img.addEventListener('click', () => openModal(idx));
+        });
+    
+        // Evento de fechar o modal
+        modalClose.addEventListener('click', closeModal);
+        modalOverlay.addEventListener('click', (e) => {
+            if (e.target === modalOverlay) closeModal();
+        });
+    });
+    </script>
+</body>
+</html>
