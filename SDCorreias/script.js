@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Lista de imagens (substitua pelas suas)
     const images = [
-        './assets/images/PVCVerde.jpg',
+        './assets/images/PVCAzul.jpg',
         './assets/images/PVCBranca.jpg',
         './assets/images/PVCVerde.jpg',
         './assets/images/coreiatt.jpg',
